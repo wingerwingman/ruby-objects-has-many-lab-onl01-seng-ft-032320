@@ -7,11 +7,11 @@ class Artist
     @songs = []
   end
   
-  def songs 
-    Songs.all.select do |song|
-      song.artist == self 
-    end
-  end
+  # def songs 
+  #   Songs.all.select do |song|
+  #     song.artist == self 
+  #   end
+  # end
   
   def add_song(song)
     @songs << song
