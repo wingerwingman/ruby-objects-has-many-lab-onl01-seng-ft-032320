@@ -4,7 +4,6 @@ def Post
 @@all = []
   def initialize(title)
     @title = title
-    @name = name
     save
   end
   
