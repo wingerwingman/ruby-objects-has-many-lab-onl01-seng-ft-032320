@@ -7,7 +7,6 @@ class Song
   end
   
   def artist_name
-    @@all << name
     self.artist.name
   end
 
