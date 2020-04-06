@@ -5,7 +5,7 @@ class Artist
     @name = name
   end
   
-  def songs(name,genre)
+  def add_song_by_name(name,genre)
     song = Song.new(name, genre)
     add_song(song)
   end
