@@ -1,4 +1,4 @@
-def Post
+class Post
   attr_accessor :title
   @post_count = 0
   @@all = []
