@@ -1,3 +1,5 @@
 class Songs
-  songs 
+  attr_accessor :name 
+  @all = []
+  
 end 
