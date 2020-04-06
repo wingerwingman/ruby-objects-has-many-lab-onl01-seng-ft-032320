@@ -7,6 +7,10 @@ class Post
     save
   end
   
+  def title
+    @title
+  end
+  
   def save
     @@all << @title
     @post_count += 1
