@@ -6,10 +6,10 @@ class Artist
   end
   
   def add_song(song)
-    song.artis = self
+    songs.artis = self
   end
   
-  def song 
+  def song
     Song.all.select {|song| song.artist ==  self}
   end
 end 
