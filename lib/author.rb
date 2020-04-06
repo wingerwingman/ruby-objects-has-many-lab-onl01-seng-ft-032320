@@ -7,9 +7,6 @@ class Author
     @post = []
   end
   
-  def posts 
-    @posts
-  end
   
   def add_post(post)
     @posts << post
@@ -28,4 +25,7 @@ class Author
     @post_count
   end
   
+  def posts 
+    @posts
+  end
 end
