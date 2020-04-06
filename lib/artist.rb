@@ -31,7 +31,7 @@ class Artist
   
   def songs 
     # @songs 
-    song.all.select {|song| song.artist == self
+    song.all.select {|song| song.artist == self}
 
   end
   
