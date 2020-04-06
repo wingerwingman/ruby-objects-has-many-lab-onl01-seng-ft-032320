@@ -8,7 +8,7 @@ def Post
   end
   
   def save
-    @@all << self
+    @@all << title
   end
   
   def self.all
